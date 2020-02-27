@@ -26,7 +26,7 @@ fi
 
 if [ $(which brew) ]; then
   if ask "Homebrew packages install?"; then
-    brew install $(cat brew/packages-list.txt)
+    brew install $(cat brew/package-list.txt)
     # rictyフォントインストール
     brew tap sanemat/font
     brew install sanemat/font/ricty
