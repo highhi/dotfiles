@@ -1,0 +1,28 @@
+[core]
+	excludesfile = ~/.gitignore_global
+  editor = nvim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = highhi
+	email = kazu8160@gmail.com
+[commit]
+	template = ~/.stCommitMsg
+[color]
+  ui = auto
+[alias]
+	st = status
+	ss = status --short
+	save = commit -m
+	resave = commit --amend
+	unstage = reset HEAD
+	prestage = diff -w --word-diff=color
+	mv = move
+	remove = rm
+	graph = log --graph --oneline
+  out = checkout
+	rewite = rebase -i

@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabCompletion": "on",
+  "window.zoomLevel": 1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true
+}

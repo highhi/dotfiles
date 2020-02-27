@@ -1,0 +1,6 @@
+git
+jq
+zsh
+nodenv
+neovim
+direnv
