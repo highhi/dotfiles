@@ -11,6 +11,10 @@ function ask() {
   esac
 }
 
+if [ ! -e '~/github' ]; then
+  mkdir ~/github
+fi
+
 if [ ! $(which brew) ]; then
   if ask "Hombrew install?"; then
     if [ `uname` = "Linux" ]; then
@@ -18,9 +22,12 @@ if [ ! $(which brew) ]; then
       test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
       test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
       echo "eval \$($(brew --prefix)/bin/brew shellenv)" >> ~/.bashrc
+      exec $SHELL -l
     else
       /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     fi
+    
+    brew update
   fi
 fi
 
@@ -54,6 +61,10 @@ if [ -e ~/Library/Application\ Support/Code/User ]; then
   done
 
   cd
+fi
+
+if [ ! -e '~/.config/nvim' ]; then
+  mkdir -p ~/.config/nvim
 fi
 
 ln -sf ~/github/dotfiles/zsh/.zshrc ~/.zshrc
