@@ -1,6 +1,6 @@
 [core]
 	excludesfile = ~/.gitignore_global
-  editor = nvim
+	editor = nvim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -13,7 +13,7 @@
 [commit]
 	template = ~/.stCommitMsg
 [color]
-  ui = auto
+	ui = auto
 [alias]
 	st = status
 	ss = status --short
@@ -24,5 +24,5 @@
 	mv = move
 	remove = rm
 	graph = log --graph --oneline
-  out = checkout
+	out = checkout
 	rewite = rebase -i

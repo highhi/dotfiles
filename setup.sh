@@ -47,7 +47,7 @@ fi
 if [ -e ~/Library/Application\ Support/Code/User ]; then
   cd ~/Library/Application\ Support/Code/User
 
-  ln -sf ~/dotfiles/vscode/settings.json
+  ln -sf ~/github/dotfiles/vscode/settings.json
 
   for ext in `cat ~/dotfiles/vscode/extensions.txt`; do
     code --install-extension $ext
@@ -56,7 +56,7 @@ if [ -e ~/Library/Application\ Support/Code/User ]; then
   cd
 fi
 
-ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
-ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/git/.gitignore_global ~/.gitignore_global
+ln -sf ~/github/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/github/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
+ln -sf ~/github/dotfiles/git/.gitconfig ~/.gitconfig
+ln -sf ~/github/dotfiles/git/.gitignore_global ~/.gitignore_global
