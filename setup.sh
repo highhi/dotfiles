@@ -43,6 +43,19 @@ if [ ! -f "~/.zplug/init.zsh" ]; then
   fi
 fi
 
+# VSCode
+if [ -e ~/Library/Application\ Support/Code/User ]; then
+  cd ~/Library/Application\ Support/Code/User
+
+  ln -sf ~/dotfiles/vscode/settings.json
+
+  for ext in `cat ~/dotfiles/vscode/extensions.txt`; do
+    code --install-extension $ext
+  done
+
+  cd
+fi
+
 ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
