@@ -8,5 +8,7 @@
   "window.zoomLevel": 1,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "vim.easymotion": true,
+  "vim.leader": "<space>"
 }
