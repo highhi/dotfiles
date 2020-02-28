@@ -12,6 +12,7 @@ alias ll="ls -l"
 alias la="ls -a"
 alias tl="tail -f"
 alias g="git"
+alias rmrf="rm -rf"
 
 alias -g G="| grep"
 alias -g X="| xargs"
