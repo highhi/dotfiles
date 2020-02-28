@@ -9,7 +9,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "prettier.singleQuote": true,
-  "go.gopath": "/Users/mizunokazuya/go",
+  "go.gopath": "~/go",
   "[go]": {
     "editor.tabSize": 4
   },
