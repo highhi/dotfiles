@@ -9,6 +9,17 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "prettier.singleQuote": true,
+  "go.gopath": "/Users/mizunokazuya/go",
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "prettier.semi": false,
   "vim.easymotion": true,
-  "vim.leader": "<space>"
+  "vim.easymotionKeys": "hklasdgjf",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["leader", "leader", "s"]
+    }
+  ]
 }
