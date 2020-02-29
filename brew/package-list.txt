@@ -4,3 +4,4 @@ zsh
 nodenv
 neovim
 direnv
+tmux
