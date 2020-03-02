@@ -8,3 +8,4 @@ tmux
 pyenv
 yarn --ignore-dependencies
 rbenv
+ruby-build
