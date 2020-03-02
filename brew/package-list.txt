@@ -5,3 +5,5 @@ nodenv
 neovim
 direnv
 tmux
+pyenv
+yarn --ignore-dependencies
