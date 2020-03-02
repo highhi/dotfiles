@@ -56,7 +56,7 @@ if [ -e ~/Library/Application\ Support/Code/User ]; then
 
   ln -sf ~/github/dotfiles/vscode/settings.json
 
-  for ext in `cat ~/dotfiles/vscode/extensions.txt`; do
+  for ext in `cat ~/github/dotfiles/vscode/extensions.txt`; do
     code --install-extension $ext
   done
 
