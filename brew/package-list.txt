@@ -7,3 +7,4 @@ direnv
 tmux
 pyenv
 yarn --ignore-dependencies
+rbenv

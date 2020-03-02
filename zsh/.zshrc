@@ -24,15 +24,13 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/google-cloud-sdk/bin/:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 # init
-if [ ! $(which direnv) ]; then
-  eval "$(direnv hook zsh)" 
-fi
-
-if [ ! $(which nodenv) ]; then
-  eval "$(nodenv init -)"
-fi
+eval "$(direnv hook zsh)" 
+eval "$(nodenv init -)"
+eval "$(pyenv init -)"
+eval "$(rbenv init -)"
 
 # zplugの初期化
 if [ `uname` = "Linux" ]; then
