@@ -5,7 +5,7 @@
   "editor.formatOnSave": true,
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabCompletion": "on",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "prettier.singleQuote": true,
