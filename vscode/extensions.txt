@@ -1,5 +1,6 @@
 AndersEAndersen.html-class-suggestions
 abusaidm.html-snippets
+andys8.jest-snippets
 be5invis.toml
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
@@ -7,6 +8,7 @@ dsznajder.es7-react-js-snippets
 eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
+firsttris.vscode-jest-runner
 formulahendry.auto-close-tag
 formulahendry.code-runner
 jpoissonnier.vscode-styled-components
