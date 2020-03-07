@@ -9,3 +9,5 @@ pyenv
 yarn --ignore-dependencies
 rbenv
 ruby-build
+tig
+lazygit
