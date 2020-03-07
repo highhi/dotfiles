@@ -14,6 +14,8 @@ alias la="ls -a"
 alias tl="tail -f"
 alias g="git"
 alias rmrf="rm -rf"
+alias zconf="vim ~/.zshrc"
+alias lg="lazygit"
 
 alias -g G="| grep"
 alias -g X="| xargs"
