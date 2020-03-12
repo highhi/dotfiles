@@ -22,5 +22,7 @@
       "before": ["f"],
       "after": ["leader", "leader", "s"]
     }
-  ]
+  ],
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false
 }
