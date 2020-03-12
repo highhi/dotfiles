@@ -10,8 +10,6 @@
 [user]
 	name = highhi
 	email = kazu8160@gmail.com
-[commit]
-	template = ~/.stCommitMsg
 [color]
 	ui = auto
 [alias]
