@@ -1,0 +1,7 @@
+set main-view = id date author commit-title:graph=yes,refs=yes
+
+color cursor white 234 bold
+
+bind main R !git rebase -i %(commit)
+bind diff R !git rebase -i %(commit)
+
