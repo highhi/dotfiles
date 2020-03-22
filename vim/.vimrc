@@ -1,21 +1,21 @@
 set encoding=utf-8
 set ffs=unix,dos,mac
 set title
-set mouse=a
-set whichwrap=b,s,h,l,<,>,[,]
+set mouse-=a
+"set whichwrap=b,s,h,l,<,>,[,]
 set autoread
 set showcmd
 set noswapfile
 set nobackup
 set showmode
 set ruler
-
+set clipboard=unnamed,autoselect
 set number
 set autoindent
 set smartindent
 set expandtab
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
 set shiftwidth=2
 syntax on
 set wildmenu
